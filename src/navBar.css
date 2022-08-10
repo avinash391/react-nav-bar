@@ -10,16 +10,19 @@ main {
     display: flex;
     align-items: center;
     
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
+    background: url("https://cdn.statusqueen.com/mobilewallpaper/thumbnail/mobile_wallpaper258-748.jpg");
     color: white;
     font-family: Helvetica;
     font-weight: 300;
+    box-shadow: 10px 10px 30px #9c752c;
 }
 
 .navbar__title {
     margin-right: auto;
     font-size: 150%;
     padding: 12px 16px;
+   
 }
 
 .navbar__item {
@@ -29,4 +32,7 @@ main {
 }
 .navbar__item:hover{
     color: brown;
+}
+.navbar__title:hover{
+    color: rgb(255, 5, 5);
 }
