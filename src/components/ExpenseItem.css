@@ -1,0 +1,47 @@
+.expense_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 5rem 8rem;
+    border-radius: 12px;
+    background-color: rgb(190, 207, 207);
+    border: 1px solid black;
+}
+.expense_item h2{
+    color: black;
+}
+.expense_description{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.expense_price{
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 12px;
+    background-color: rgb(26, 155, 0);
+
+}
+.two-div{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:580px){
+    .expense_description{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex: 1;
+    }
+
+    .expense_price{
+        padding: 0.5rem 1.5rem;
+    }
+   
+    
+}
